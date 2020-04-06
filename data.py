@@ -9,6 +9,7 @@ def growth_rate(x, steps=1):
   return x[steps:]-x[:-steps]
 
 def create_DGP(N, T, alpha, var_eps):
+  
     """ we do cool stuff here:
 
     Args:
@@ -18,6 +19,7 @@ def create_DGP(N, T, alpha, var_eps):
     Returns:
     Y (array)
     Y_growth (array)
+    """
   # Function that takes all necessary parameters and returns a simulated dataset [NxT]
   Y=np.random.rand(N, T)
   for i in range(N):
