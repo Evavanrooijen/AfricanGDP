@@ -1,6 +1,14 @@
 # AfricanGDP
 Time Series model for forecasting African GDP growth
 
+## Content
+- functins.py
+- tests.py
+- app.py
+- export.py
+- requirements.txt
+- README.md
+
 ## Installation
 ```bash
 pip install foobar
