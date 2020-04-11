@@ -2,7 +2,7 @@
 Time Series model for forecasting African GDP growth
 
 ## Content
-- functins.py
+- functions.py
 - tests.py
 - app.py
 - export.py
